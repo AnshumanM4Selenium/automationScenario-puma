@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[mProcure link clicked]]>
+    </line>
+    <line>
+      <![CDATA[CreatePO link clicked]]>
+    </line>
+    <line>
+      <![CDATA[Company selected]]>
+    </line>
+    <line>
+      <![CDATA[Project selected]]>
+    </line>
+    <line>
+      <![CDATA[Checking if sub project is present]]>
+    </line>
+    <line>
+      <![CDATA[Sub project selected]]>
+    </line>
+    <line>
+      <![CDATA[Checking if sub project is present]]>
+    </line>
+    <line>
+      <![CDATA[Milestone selected]]>
+    </line>
+    <line>
+      <![CDATA[Radio button clicked]]>
+    </line>
+    <line>
+      <![CDATA[Upload PO]]>
+    </line>
+    <line>
+      <![CDATA[Document uploaded]]>
+    </line>
+    <line>
+      <![CDATA[Confirmed]]>
+    </line>
+    <line>
+      <![CDATA[Select Billing address]]>
+    </line>
+    <line>
+      <![CDATA[Billing address selected]]>
+    </line>
+    <line>
+      <![CDATA[Clicked]]>
+    </line>
+    <line>
+      <![CDATA[Select Supplier]]>
+    </line>
+    <line>
+      <![CDATA[Advance search clicked]]>
+    </line>
+    <line>
+      <![CDATA[State selected]]>
+    </line>
+    <line>
+      <![CDATA[City selected]]>
+    </line>
+    <line>
+      <![CDATA[Supllier name entered]]>
+    </line>
+    <line>
+      <![CDATA[Single payment selected]]>
+    </line>
+    <line>
+      <![CDATA[AddRow button clicked ]]>
+    </line>
+    <line>
+      <![CDATA[AddRow button clicked ]]>
+    </line>
+    <line>
+      <![CDATA[Po sent to supplier]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="246578" started-at="2017-08-24T13:07:57Z" finished-at="2017-08-24T13:12:03Z">
+    <groups>
+    </groups>
+    <test name="Supplier" duration-ms="246578" started-at="2017-08-24T13:07:57Z" finished-at="2017-08-24T13:12:03Z">
+      <class name="com.modular.framework.Functional_TestSuites.UploadPOScenarioTest">
+        <test-method status="PASS" signature="createInvoiceObjTest([Ljava.lang.String;)[pri:0, instance:com.modular.framework.Functional_TestSuites.UploadPOScenarioTest@6b4a4e18]" name="createInvoiceObjTest" duration-ms="214062" started-at="2017-08-24T18:38:29Z" data-provider="dataTest12" finished-at="2017-08-24T18:42:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@4d098f9b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[mProcure link clicked]]>
+            </line>
+            <line>
+              <![CDATA[CreatePO link clicked]]>
+            </line>
+            <line>
+              <![CDATA[Company selected]]>
+            </line>
+            <line>
+              <![CDATA[Project selected]]>
+            </line>
+            <line>
+              <![CDATA[Checking if sub project is present]]>
+            </line>
+            <line>
+              <![CDATA[Sub project selected]]>
+            </line>
+            <line>
+              <![CDATA[Checking if sub project is present]]>
+            </line>
+            <line>
+              <![CDATA[Milestone selected]]>
+            </line>
+            <line>
+              <![CDATA[Radio button clicked]]>
+            </line>
+            <line>
+              <![CDATA[Upload PO]]>
+            </line>
+            <line>
+              <![CDATA[Document uploaded]]>
+            </line>
+            <line>
+              <![CDATA[Confirmed]]>
+            </line>
+            <line>
+              <![CDATA[Select Billing address]]>
+            </line>
+            <line>
+              <![CDATA[Billing address selected]]>
+            </line>
+            <line>
+              <![CDATA[Clicked]]>
+            </line>
+            <line>
+              <![CDATA[Select Supplier]]>
+            </line>
+            <line>
+              <![CDATA[Advance search clicked]]>
+            </line>
+            <line>
+              <![CDATA[State selected]]>
+            </line>
+            <line>
+              <![CDATA[City selected]]>
+            </line>
+            <line>
+              <![CDATA[Supllier name entered]]>
+            </line>
+            <line>
+              <![CDATA[Single payment selected]]>
+            </line>
+            <line>
+              <![CDATA[AddRow button clicked ]]>
+            </line>
+            <line>
+              <![CDATA[AddRow button clicked ]]>
+            </line>
+            <line>
+              <![CDATA[Po sent to supplier]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createInvoiceObjTest -->
+      </class> <!-- com.modular.framework.Functional_TestSuites.UploadPOScenarioTest -->
+      <class name="com.modular.framework.InitWebdriver.InitDriver">
+        <test-method status="PASS" signature="beforeTestCofig()[pri:0, instance:com.modular.framework.InitWebdriver.InitDriver@78b729e6]" name="beforeTestCofig" is-config="true" duration-ms="32347" started-at="2017-08-24T18:37:57Z" finished-at="2017-08-24T18:38:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestCofig -->
+      </class> <!-- com.modular.framework.InitWebdriver.InitDriver -->
+    </test> <!-- Supplier -->
+  </suite> <!-- Suite -->
+</testng-results>
