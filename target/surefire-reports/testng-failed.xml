@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <test name="Supplier">
+    <classes>
+      <class name="com.modular.framework.Functional_TestSuites.AssignmentTest"/>
+      <class name="com.modular.framework.InitWebdriver.InitDriver"/>
+    </classes>
+  </test> <!-- Supplier -->
+  <test name="Supplier(failed)">
+    <classes>
+      <class name="com.modular.framework.InitWebdriver.InitDriver">
+        <methods>
+          <include name="beforeTestCofig"/>
+        </methods>
+      </class> <!-- com.modular.framework.InitWebdriver.InitDriver -->
+      <class name="com.modular.framework.Functional_TestSuites.AssignmentTest">
+        <methods>
+          <include name="scenarioTest"/>
+        </methods>
+      </class> <!-- com.modular.framework.Functional_TestSuites.AssignmentTest -->
+    </classes>
+  </test> <!-- Supplier(failed) -->
+</suite> <!-- Failed suite [Suite] -->

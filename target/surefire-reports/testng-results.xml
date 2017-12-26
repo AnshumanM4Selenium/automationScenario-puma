@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="9944" started-at="2017-12-26T12:59:07Z" finished-at="2017-12-26T12:59:17Z">
+    <groups>
+    </groups>
+    <test name="Supplier" duration-ms="9944" started-at="2017-12-26T12:59:07Z" finished-at="2017-12-26T12:59:17Z">
+      <class name="com.modular.framework.Functional_TestSuites.AssignmentTest">
+        <test-method status="FAIL" signature="scenarioTest([Ljava.lang.String;)[pri:0, instance:com.modular.framework.Functional_TestSuites.AssignmentTest@35fc6dc4]" name="scenarioTest" duration-ms="155" started-at="2017-12-26T18:29:17Z" data-provider="dataTest12" finished-at="2017-12-26T18:29:17Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+The data provider is trying to pass 8 parameters but the method com.modular.framework.Functional_TestSuites.AssignmentTest#scenarioTest takes 1]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+The data provider is trying to pass 8 parameters but the method com.modular.framework.Functional_TestSuites.AssignmentTest#scenarioTest takes 1
+	at org.testng.internal.Invoker.injectParameters(Invoker.java:1229)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1122)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scenarioTest -->
+      </class> <!-- com.modular.framework.Functional_TestSuites.AssignmentTest -->
+      <class name="com.modular.framework.InitWebdriver.InitDriver">
+        <test-method status="PASS" signature="beforeTestCofig()[pri:0, instance:com.modular.framework.InitWebdriver.InitDriver@77e4c80f]" name="beforeTestCofig" is-config="true" duration-ms="9755" started-at="2017-12-26T18:29:07Z" finished-at="2017-12-26T18:29:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestCofig -->
+      </class> <!-- com.modular.framework.InitWebdriver.InitDriver -->
+    </test> <!-- Supplier -->
+  </suite> <!-- Suite -->
+</testng-results>

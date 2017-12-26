@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 10.824 sec <<< FAILURE! - in TestSuite
+scenarioTest(com.modular.framework.Functional_TestSuites.AssignmentTest)  Time elapsed: 10.594 sec  <<< FAILURE!
+org.testng.TestNGException: 
+
+The data provider is trying to pass 8 parameters but the method com.modular.framework.Functional_TestSuites.AssignmentTest#scenarioTest takes 1
+
